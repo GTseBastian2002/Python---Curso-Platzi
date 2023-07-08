@@ -35,8 +35,6 @@ while repetir == 1:
             for elemento in range(len(palabra_generada)):
                 if palabra_generada[elemento] == letra:
                     palabra_por_partes[elemento] = letra
-                else:
-                    palabra_por_partes[elemento] == "@"
             for elemento in palabra_por_partes:
                 if len(palabra_unida) >= len(palabra_generada):
                     palabra_unida += ""
